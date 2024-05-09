@@ -1,0 +1,34 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude all log files
+*.log
+
+# Ignore override files as they are usually used to override resources locally and should not be shared
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include ignore files that Terraform uses to denote override files
+.terraformrc
+terraform.rc
+
+# Ignore IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
