@@ -136,7 +136,7 @@ EOF
 7. And then again run the command :
 
 ```
-terraform applyb -auto-approve
+terraform apply -auto-approve
 ```
 8. The code above will apply the necessary configurations for features such as static website hosting, bucket policies, and blocking public access to your bucket.
 9. Certainly, it's important to customize the code to your specific needs. Please remember to change the bucket name, region, and configurations as per your requirements when using the code from the Terraform documentation.
